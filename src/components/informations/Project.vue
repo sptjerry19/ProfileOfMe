@@ -3,7 +3,7 @@
     class="flex flex-col items-center justify-center min-h-screen from-red-100 via-red-300 to-blue-500 bg-gradient-to-br mt-20 py-20"
   >
     <div
-      class="p-4 items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
+      class="transition ease-in p-4 cursor-pointer items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl hover:scale-105"
     >
       <img
         class="mx-auto block w-4/12 h-40 rounded-lg"
@@ -134,7 +134,7 @@
       </div>
     </div>
     <div
-      class="p-4 mt-10 items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
+      class="transition ease-in hover:scale-105 cursor-pointer p-4 mt-10 items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
     >
       <div class="sm:w-8/12 pl-0 p-5">
         <div class="space-y-2">
@@ -265,7 +265,7 @@
       />
     </div>
     <div
-      class="p-4 mt-10 items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
+      class="transition ease-in hover:scale-105 cursor-pointer p-4 mt-10 items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
     >
       <img
         class="mx-auto block w-4/12 h-40 rounded-lg"
@@ -396,7 +396,7 @@
       </div>
     </div>
     <div
-      class="p-4 mt-10 items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
+      class="transition ease-in hover:scale-105 cursor-pointer p-4 mt-10 items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl"
     >
       <div class="sm:w-8/12 pl-0 p-5">
         <div class="space-y-2">

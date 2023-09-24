@@ -13,7 +13,7 @@
       {{ about }}
     </p>
     <button
-      class="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:bg-indigo-800"
+      class="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-900 font-semibold uppercase tracking-wide hover:bg-indigo-800 bg-transparent border border-indigo-800 hover:text-white hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0"
     >
       <a :href="link">connect Me</a>
     </button>

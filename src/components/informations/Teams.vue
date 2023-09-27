@@ -7,3 +7,4 @@ import Team from "./Team.vue";
     <Team />
   </div>
 </template>
+

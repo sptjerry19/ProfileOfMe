@@ -1,7 +1,8 @@
 <template>
   <div
-    class="flex flex-col fixed w-2/3 mt-3 shadow-xl rounded-sm dark:shadow-zinc-700"
+    class="flex flex-col fixed w-2/3 shadow-xl rounded-sm dark:shadow-zinc-700"
   >
+    <div class=" h-3 blur-sm"></div>
     <input
       class="w-full px-4 py-3 rounded-sm dark:bg-black dark:text-white"
       type="text"

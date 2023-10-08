@@ -2,7 +2,7 @@
 import SearchScreen from "./components/SearchScreen.vue";
 import UserProfile from "./components/UserProfile.vue";
 import SetTings from "./components/SetTings.vue";
-import Navigation from "./components/Navigation.vue";
+// import Navigation from "./components/Navigation.vue";
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import Navigation from "./components/Navigation.vue";
     <SearchScreen :open-panel="openPanel" />
     <SetTings />
   </div>
-  <Navigation />
+  <!-- <Navigation /> -->
 </template>
 
 <script>

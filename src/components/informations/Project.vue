@@ -7,9 +7,10 @@ import MusicProject from "./MusicProject.vue";
   <div
     class="flex flex-col items-center justify-center min-h-screen from-red-100 via-red-300 to-blue-500 bg-gradient-to-br mt-20 py-20"
   >
-  <MusicProject/>
-  <TodoList />
-    <div
+    <!-- <MusicProject /> -->
+    <div class="mt-10"></div>
+    <TodoList />
+    <!-- <div
       class="transition ease-in p-4 cursor-pointer items-center justify-center w-[680px] rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl hover:scale-105"
     >
       <img
@@ -532,6 +533,6 @@ import MusicProject from "./MusicProject.vue";
         loading="lazy"
         src="https://picsum.photos/seed/2/2000/1000"
       />
-    </div>
+    </div> -->
   </div>
 </template>

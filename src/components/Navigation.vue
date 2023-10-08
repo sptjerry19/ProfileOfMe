@@ -5,7 +5,7 @@
   />
   <!-- This is an example component -->
   <div
-    class="fixed top-0 left-0 h-screen w-16 bg-gray-800"
+    class="fixed top-0 left-0 h-screen w-16 bg-gray-800 lg:block md:hidden"
     @click="isOpenFull = true"
   >
     <div

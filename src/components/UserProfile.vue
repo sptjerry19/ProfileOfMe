@@ -7,7 +7,7 @@ import Connec from "./informations/Connec.vue";
 
 <template>
   <div
-    class="flex w-2/3 mt-20 flex-col dark:text-white"
+    class="flex mt-20 flex-col dark:text-white lg:w-2/3 px-2 w-full"
     @click="$emit('opePanel', false)"
   >
     <div class="flex flex-col">
@@ -25,17 +25,17 @@ import Connec from "./informations/Connec.vue";
             alt=""
           />
         </div>
-        <div class="absolute bottom-12 left-10">
+        <div class="absolute md:bottom-12 bottom-6 left-10">
           <img
             class="w-32 h-32 object-cover rounded-full"
             src="../assets/avatar.jpeg"
             alt=""
           />
         </div>
-        <div class="flex justify-around pl-28 mb-9 items-center">
+        <div class="flex justify-around md:pl-28 pl-40 mb-9 items-center">
           <div class="flex flex-col">
             <h1 class="pl-3 text-2xl">{{ infor.name }}</h1>
-            <div class="flex">
+            <div class="md:flex hidden">
               <p class="p-3 flex items-center">
                 <i
                   ><svg
@@ -98,7 +98,10 @@ import Connec from "./informations/Connec.vue";
             </div>
           </div>
           <button class="h-11 px-4 bg-blue-500 rounded-lg hover:opacity-70">
-            connected
+            <a
+              href="https://vn.joboko.com/xem-cv/pham-duy-linh-36062fb88bf2d8ea-2306677"
+              >connected</a
+            >
           </button>
         </div>
       </div>
@@ -111,7 +114,7 @@ import Connec from "./informations/Connec.vue";
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6 mr-2"
+          class="h-6 w-6 mr-2 sm:mr-0"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -123,7 +126,7 @@ import Connec from "./informations/Connec.vue";
             d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
           />
         </svg>
-        Profile
+        <p class="hidden sm:block">Profile</p>
       </button>
       <button
         class="text-black dark:text-white p-4 rounded shadow-md flex items-center justify-center mr-3"
@@ -132,19 +135,20 @@ import Connec from "./informations/Connec.vue";
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6 mr-2"
           fill="none"
           viewBox="0 0 24 24"
+          stroke-width="1.5"
           stroke="currentColor"
+          class="w-6 h-6 mr-2 sm:mr-0"
         >
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
-            d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+            d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
           />
         </svg>
-        Teams
+
+        <p class="hidden sm:block">Teamss</p>
       </button>
       <button
         class="text-black dark:text-white p-4 rounded shadow-md flex items-center justify-center mr-3"
@@ -153,19 +157,20 @@ import Connec from "./informations/Connec.vue";
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6 mr-2"
           fill="none"
           viewBox="0 0 24 24"
+          stroke-width="1.5"
           stroke="currentColor"
+          class="w-6 h-6 mr-2 sm:mr-0"
         >
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
-            d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
+            d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z"
           />
         </svg>
-        Project
+
+        <p class="hidden sm:block">Project</p>
       </button>
       <button
         class="text-black dark:text-white p-4 rounded shadow-md flex items-center justify-center mr-3"
